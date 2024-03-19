@@ -1,0 +1,45 @@
+.container {
+    display: grid;
+    grid-template-columns: 11em 70em;
+    grid-template-rows: 8em 30em 8em;
+    gap: 10px;
+    background-color: gray;
+    
+}
+
+
+
+.barra-lateral {
+    grid-row: 1/4;
+    background-color: brown;
+
+
+}
+
+.encabezado {
+    grid-column: 2;
+    grid-row: 1;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+
+}
+
+.contenido {
+    grid-row: 2;
+    background-color: green;
+    
+}
+
+
+.pie-de-pagina {
+    grid-row: 3;
+    background-color: coral;
+}
+.d-bg-amarillo {background-color: gold;}
+
+
+
+.d-bg-verdefeurte{background-color: greenyellow;}
