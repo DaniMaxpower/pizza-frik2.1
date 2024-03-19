@@ -1,7 +1,7 @@
 .container {
     display: grid;
     grid-template-columns: 11em 70em;
-    grid-template-rows: 8em 30em 8em;
+    grid-template-rows: 8em 30em 16em;
     gap: 10px;
     background-color: gray;
     
@@ -11,7 +11,7 @@
 
 .barra-lateral {
     grid-row: 1/4;
-    background-color: brown;
+    background-color:deeppink;
 
 
 }
@@ -43,3 +43,8 @@
 
 
 .d-bg-verdefeurte{background-color: greenyellow;}
+
+.contenido #pizza img {
+    width: 100%;
+    height: auto;
+}
